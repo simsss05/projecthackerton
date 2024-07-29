@@ -1,0 +1,68 @@
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  margin-bottom: 20px;
+}
+
+.profile-picture-container {
+  position: relative;
+  width: 150px; /* 프로필 사진 크기 */
+  height: 150px; /* 프로필 사진 크기 */
+  cursor: pointer;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.profile-picture-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #007bff;
+  cursor: pointer;
+  border: 2px solid #ddd;
+}
+
+.plus-sign {
+  font-size: 3rem;
+  color: #007bff;
+  line-height: 1;
+}
+
+.file-input {
+  display: none;
+}
+
+.editable-name {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.editable-name input {
+  margin-right: 10px;
+}
+
+.editable-name button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.editable-name button:hover {
+  background-color: #0056b3;
+}
